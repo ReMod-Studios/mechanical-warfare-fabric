@@ -1,20 +1,22 @@
 package com.remodstudios.mechwarf.items;
 
 import com.remodstudios.mechwarf.MechanicalWarfare;
+import com.remodstudios.mechwarf.blocks.BlockRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ItemRegistry {
     // items go BRRRRRRRRR
-
+    public static final Item CHARGED_REDSTONE_DUST = register(new ChargedItem(new Item.Settings().group(ItemGroup.MISC)), "charged_redstone_dust");
 
 
 
     // Bwockitems go hewe
-
+    public static final Item CHARGES_REDSTONE_BLOCK = register(BlockRegistry.CHARGED_REDSTONE_BLOCK, "charged_redstone_block", new Item.Settings().group(ItemGroup.MISC));
 
 
 
