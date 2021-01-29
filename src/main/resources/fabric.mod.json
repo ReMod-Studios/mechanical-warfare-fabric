@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "mechwarf",
+  "version": "${version}",
+  "name": "Mechanical Warfare",
+  "description": "A Project that aims to expand both, redstone technology, and old rusted combat.",
+  "authors": [
+    "LePichu"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "Apache-2.0",
+  "icon": "assets/mechwarf/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.remodstudios.mechwarf.MechanicalWarfare"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "mechwarf.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*"
+  }
+}
