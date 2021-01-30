@@ -1,4 +1,9 @@
 {
   "test": "test",
-  "item.mechwarf.charged_redstone_dust": "Charged Redstone Dust"
+  "itemGroup.mechwarf.group": "Mechanical Warfare",
+  "item.mechwarf.charged_redstone_dust": "Charged Redstone Dust",
+  "block.mechwarf.charged_redstone_block": "Charged Redstone Block",
+  "item.mechwarf.plutonium_shard": "Plutonium Shard",
+  "block.mechwarf.plutonium_ore": "Plutonium Ore",
+  "block.mechwarf.plutonium_block": "Block of Plutonium"
 }
