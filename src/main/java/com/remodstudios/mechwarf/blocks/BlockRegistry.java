@@ -10,7 +10,9 @@ import net.minecraft.util.registry.Registry;
 
 public class BlockRegistry {
     // Bwocks go hewe UwU
-    public static final Block CHARGED_REDSTONE_BLOCK = register(new RedstoneBlock(FabricBlockSettings.copyOf(Blocks.REDSTONE_BLOCK)), "charged_redstone_block");
+    public static final Block CHARGED_REDSTONE_BLOCK = register(new ChargedRedstoneBlock(FabricBlockSettings.copyOf(Blocks.REDSTONE_BLOCK)), "charged_redstone_blockR");
+    public static final Block PLUTONIUM_ORE = register(new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)),"plutonium_ore");
+    public static final Block PLUTONIUM_BLOCK = register(new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)),"plutonium_block");
 
     // Methods to register and stuff
     public static void init(){

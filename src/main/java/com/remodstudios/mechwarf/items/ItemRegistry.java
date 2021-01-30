@@ -16,9 +16,9 @@ public class ItemRegistry {
 
 
     // Bwockitems go hewe
-    public static final Item CHARGES_REDSTONE_BLOCK = register(BlockRegistry.CHARGED_REDSTONE_BLOCK, "charged_redstone_block", new Item.Settings().group(ItemGroup.MISC));
-
-
+    public static final Item CHARGED_REDSTONE_BLOCK = register(BlockRegistry.CHARGED_REDSTONE_BLOCK, "charged_redstone_block", new Item.Settings().group(ItemGroup.MISC));
+    public static final Item PLUTONIUM_ORE = register(BlockRegistry.PLUTONIUM_ORE, "plutonium_ore", new Item.Settings().group(ItemGroup.MISC));
+    public static final Item PLUTONIUM_BLOCK = register(BlockRegistry.PLUTONIUM_BLOCK, "plutonium_block", new Item.Settings().group(ItemGroup.MISC));
 
     ////////////////////////////////////
 
